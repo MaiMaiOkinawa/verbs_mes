@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Verbs</title>
+  </head>
+
+  <body>
+    <audio id="borrow" src="sounds/borrow.mp3"></audio>
+    <audio id="brush" src="sounds/brush.mp3"></audio>
+    <audio id="call" src="sounds/call.mp3"></audio>
+    <audio id="clean" src="sounds/clean.mp3"></audio>
+    <audio id="climb" src="sounds/climb.mp3"></audio>
+    <audio id="cook" src="sounds/cook.mp3"></audio>
+    <audio id="cry" src="sounds/cry.mp3"></audio>
+    <audio id="cut" src="sounds/cut.mp3"></audio>
+    <audio id="dance" src="sounds/dance.mp3"></audio>
+    <audio id="draw" src="sounds/draw.mp3"></audio>
+    <audio id="drop" src="sounds/drop.mp3"></audio>
+    <audio id="eat" src="sounds/eat.mp3"></audio>
+    <audio id="fly" src="sounds/fly.mp3"></audio>
+    <audio id="hug" src="sounds/hug.mp3"></audio>
+    <audio id="jump" src="sounds/jump.mp3"></audio>
+    <audio id="kick" src="sounds/kick.mp3"></audio>
+    <audio id="laugh" src="sounds/laugh.mp3"></audio>
+    <audio id="lend" src="sounds/lend.mp3"></audio>
+    <audio id="play_a_game" src="sounds/play_a_game.mp3"></audio>
+    <audio id="play_soccer" src="sounds/play_soccer.mp3"></audio>
+    <audio id="play_the_piano" src="sounds/play_the_piano.mp3"></audio>
+    <audio id="read" src="sounds/read.mp3"></audio>
+    <audio id="ride" src="sounds/ride.mp3"></audio>
+    <audio id="run" src="sounds/run.mp3"></audio>
+    <audio id="sing" src="sounds/sing.mp3"></audio>
+    <audio id="sit" src="sounds/sit.mp3"></audio>
+    <audio id="sleep" src="sounds/sleep.mp3"></audio>
+    <audio id="smell" src="sounds/smell.mp3"></audio>
+    <audio id="stand" src="sounds/stand.mp3"></audio>
+    <audio id="swim" src="sounds/swim.mp3"></audio>
+    <audio id="take_a_bath" src="sounds/take_a_bath.mp3"></audio>
+    <audio id="talk" src="sounds/talk.mp3"></audio>
+    <audio id="teach" src="sounds/teach.mp3"></audio>
+    <audio id="walk" src="sounds/walk.mp3"></audio>
+    <audio id="wash" src="sounds/wash.mp3"></audio>
+    <audio id="watch_a_movie" src="sounds/watch_a_movie.mp3"></audio>
+    <audio id="watch_tv" src="sounds/watch_tv.mp3"></audio>
+    <audio id="write" src="sounds/write.mp3"></audio>
+
+    <h1>Verbs</h1>
+    <div class="container">
+      <!-- borrow -->
+      <div class="text">
+        <h3 class="text-title">Borrow</h3>
+        <a onclick="document.getElementById('borrow').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1644185435044-6dd7e7856412?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="img__description">かりる</p>
+        </div>
+      </div>
+      <!-- borrow end -->
+
+      <!-- brush -->
+      <div class="text">
+        <h3 class="text-title">Brush</h3>
+        <a onclick="document.getElementById('brush').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1609840113564-ab4aba4956c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">みがく</p>
+        </div>
+      </div>
+      <!-- brush end -->
+
+      <!-- call -->
+      <div class="text">
+        <h3 class="text-title">Call</h3>
+        <a onclick="document.getElementById('call').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1553484771-898ed465e931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">でんわする</p>
+        </div>
+      </div>
+      <!-- call end -->
+
+      <!-- clean -->
+      <div class="text">
+        <h3 class="text-title">Clean</h3>
+        <a onclick="document.getElementById('clean').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1646980241033-cd7abda2ee88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">そうじする</p>
+        </div>
+      </div>
+      <!-- clean end -->
+
+      <!-- climb -->
+      <div class="text">
+        <h3 class="text-title">Climb</h3>
+        <a onclick="document.getElementById('climb').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1502126324834-38f8e02d7160?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">のぼる</p>
+        </div>
+      </div>
+      <!-- climb end -->
+
+      <!-- cook -->
+      <div class="text">
+        <h3 class="text-title">Cook</h3>
+        <a onclick="document.getElementById('cook').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1556911220-dabc1f02913a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">りょうりする</p>
+        </div>
+      </div>
+      <!-- cook end -->
+
+      <!-- cry -->
+      <div class="text">
+        <h3 class="text-title">Cry</h3>
+        <a onclick="document.getElementById('cry').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1569573589262-f195188e698e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">なく</p>
+        </div>
+      </div>
+      <!-- cry end -->
+
+      <!-- cut -->
+      <div class="text">
+        <h3 class="text-title">Cut</h3>
+        <a onclick="document.getElementById('cut').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1492093610675-98e3102999c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">きる</p>
+        </div>
+      </div>
+      <!-- cut end -->
+
+      <!-- dance -->
+      <div class="text">
+        <h3 class="text-title">Dance</h3>
+        <a onclick="document.getElementById('dance').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">おどる</p>
+        </div>
+      </div>
+      <!-- dance end -->
+
+      <!-- draw -->
+      <div class="text">
+        <h3 class="text-title">Draw</h3>
+        <a onclick="document.getElementById('draw').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1569309338532-a0c01062acc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">えをかく</p>
+        </div>
+      </div>
+      <!-- draw end -->
+
+      <!-- drop -->
+      <div class="text">
+        <h3 class="text-title">Drop</h3>
+        <a onclick="document.getElementById('drop').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://media.istockphoto.com/id/1445782539/es/foto/la-mano-del-hombre-cauc%C3%A1sico-dejando-caer-el-micr%C3%B3fono-la-mano-estirada-y-un-micr%C3%B3fono.jpg?s=612x612&w=0&k=20&c=2u2fnqD_o58L1iC0lL-5Df0229C-MudW-eNIPbItbao="
+          />
+          <p class="img__description">おとす</p>
+        </div>
+      </div>
+      <!-- drop end -->
+
+      <!-- eat -->
+      <div class="text">
+        <h3 class="text-title">Eat</h3>
+        <a onclick="document.getElementById('eat').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1627662236865-75ef4bba23a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=725&q=80"
+          />
+          <p class="img__description">たべる</p>
+        </div>
+      </div>
+      <!-- eat end -->
+
+      <!-- fly -->
+      <div class="text">
+        <h3 class="text-title">Fly</h3>
+        <a onclick="document.getElementById('fly').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1567520000794-9d4f7e1b89d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">とぶ</p>
+        </div>
+      </div>
+      <!-- fly end -->
+
+      <!-- hug -->
+      <div class="text">
+        <h3 class="text-title">Hug</h3>
+        <a onclick="document.getElementById('hug').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1508205065970-cad01cebebb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="img__description">ハグする</p>
+        </div>
+      </div>
+      <!-- hug end -->
+
+      <!-- jump -->
+      <div class="text">
+        <h3 class="text-title">Jump</h3>
+        <a onclick="document.getElementById('jump').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1613122707153-070406e9fd27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1104&q=80"
+          />
+          <p class="img__description">ジャンプする</p>
+        </div>
+      </div>
+      <!-- jump end -->
+
+      <!-- kick -->
+      <div class="text">
+        <h3 class="text-title">Kick</h3>
+        <a onclick="document.getElementById('kick').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1514050566906-8d077bae7046?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80"
+          />
+          <p class="img__description">ける</p>
+        </div>
+      </div>
+      <!-- kick end -->
+
+      <!-- laugh -->
+      <div class="text">
+        <h3 class="text-title">Laugh</h3>
+        <a onclick="document.getElementById('laugh').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+          />
+          <p class="img__description">わらう</p>
+        </div>
+      </div>
+      <!-- laugh end -->
+
+      <!-- lend -->
+      <div class="text">
+        <h3 class="text-title">Lend</h3>
+        <a onclick="document.getElementById('lend').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1620644592479-05a71ce7d1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=966&q=80"
+          />
+          <p class="img__description">かす</p>
+        </div>
+      </div>
+      <!-- lend end-->
+
+      <!-- play a game -->
+      <div class="text">
+        <h3 class="text-title">Play a Game</h3>
+        <a onclick="document.getElementById('play_a_game').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">ゲームをする</p>
+        </div>
+      </div>
+      <!-- play a game end -->
+
+      <!-- play soccer -->
+      <div class="text">
+        <h3 class="text-title">Play Soccer</h3>
+        <a onclick="document.getElementById('play_soccer').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1622659097574-c814ee26068e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1082&q=80"
+          />
+          <p class="img__description">サッカーをする</p>
+        </div>
+      </div>
+      <!-- play soccer end -->
+
+      <!-- play the piano -->
+      <div class="text">
+        <h3 class="text-title">Play the Piano</h3>
+        <a onclick="document.getElementById('play_the_piano').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1508515250198-d9cf6419470f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">ピアノをひく</p>
+        </div>
+      </div>
+      <!-- play the piano end -->
+
+      <!-- read -->
+      <div class="text">
+        <h3 class="text-title">Read</h3>
+        <a onclick="document.getElementById('read').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1476469535352-80159d0af31d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
+          />
+          <p class="img__description">よむ</p>
+        </div>
+      </div>
+      <!-- read end -->
+
+      <!-- ride -->
+      <div class="text">
+        <h3 class="text-title">Ride</h3>
+        <a onclick="document.getElementById('ride').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1494382111960-c530e53a3a80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">のる</p>
+        </div>
+      </div>
+      <!-- ride end -->
+
+      <!-- run -->
+      <div class="text">
+        <h3 class="text-title">Run</h3>
+        <a onclick="document.getElementById('run').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1638149052808-3c398e5f3447?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="img__description">はしる</p>
+        </div>
+      </div>
+      <!-- run end -->
+
+      <!-- sing -->
+      <div class="text">
+        <h3 class="text-title">Sing</h3>
+        <a onclick="document.getElementById('sing').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1517230878791-4d28214057c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+          />
+          <p class="img__description">うたう</p>
+        </div>
+      </div>
+      <!-- sing end -->
+
+      <!-- sit -->
+      <div class="text">
+        <h3 class="text-title">Sit</h3>
+        <a onclick="document.getElementById('sit').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1495125175509-8fddf00e56cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">すわる</p>
+        </div>
+      </div>
+      <!-- sit end -->
+
+      <!-- sleep -->
+      <div class="text">
+        <h3 class="text-title">Sleep</h3>
+        <a onclick="document.getElementById('sleep').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1487300001871-12053913095d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">ねる</p>
+        </div>
+      </div>
+      <!-- sleep end -->
+
+      <!-- smell -->
+      <div class="text">
+        <h3 class="text-title">Smell</h3>
+        <a onclick="document.getElementById('smell').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1501010832476-c4a5c5351fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+          />
+          <p class="img__description">かぐ</p>
+        </div>
+      </div>
+      <!-- smell end -->
+
+      <!-- stand -->
+      <div class="text">
+        <h3 class="text-title">Stand</h3>
+        <a onclick="document.getElementById('stand').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1475094276386-8a8776e8dfa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80"
+          />
+          <p class="img__description">たつ</p>
+        </div>
+      </div>
+      <!-- stand end -->
+
+      <!-- swim -->
+      <div class="text">
+        <h3 class="text-title">Swim</h3>
+        <a onclick="document.getElementById('swim').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">およぐ</p>
+        </div>
+      </div>
+      <!-- swim end -->
+
+      <!-- take a bath -->
+      <div class="text">
+        <h3 class="text-title">Take a Bath</h3>
+        <a onclick="document.getElementById('take_a_bath').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1609220361664-a5cd02bc7345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">おふろにはいる</p>
+        </div>
+      </div>
+      <!-- take a bath end -->
+
+      <!-- talk -->
+      <div class="text">
+        <h3 class="text-title">Talk</h3>
+        <a onclick="document.getElementById('talk').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1486704155675-e4c07f8ad160?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">はなす</p>
+        </div>
+      </div>
+      <!-- talk end -->
+
+      <!-- teach -->
+      <div class="text">
+        <h3 class="text-title">Teach</h3>
+        <a onclick="document.getElementById('teach').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1511629091441-ee46146481b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">おしえる</p>
+        </div>
+      </div>
+      <!-- teach end -->
+
+      <!-- walk -->
+      <div class="text">
+        <h3 class="text-title">Walk</h3>
+        <a onclick="document.getElementById('walk').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1494989615690-9900562a5b20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">あるく</p>
+        </div>
+      </div>
+      <!-- walk end -->
+
+      <!-- wash -->
+      <div class="text">
+        <h3 class="text-title">Wash</h3>
+        <a onclick="document.getElementById('wash').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1584744646898-40ff0404e767?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          />
+          <p class="img__description">あらう</p>
+        </div>
+      </div>
+      <!-- wash end -->
+
+      <!-- watch a movie -->
+      <div class="text">
+        <h3 class="text-title">Watch a Movie</h3>
+        <a onclick="document.getElementById('watch_a_movie').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1640127249305-793865c2efe1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1103&q=80"
+          />
+          <p class="img__description">えいがをみる</p>
+        </div>
+      </div>
+      <!-- watch a movie end -->
+
+      <!-- watch TV -->
+      <div class="text">
+        <h3 class="text-title">Watch TV</h3>
+        <a onclick="document.getElementById('watch_tv').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1528429421263-b742bf08e211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+          />
+          <p class="img__description">テレビをみる</p>
+        </div>
+      </div>
+      <!-- watch TV end -->
+
+      <!-- write -->
+      <div class="text">
+        <h3 class="text-title">Write</h3>
+        <a onclick="document.getElementById('write').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1494883759339-0b042055a4ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+          />
+          <p class="img__description">かく</p>
+        </div>
+      </div>
+      <!-- write end -->
+    </div>
+
+    <!-- container end -->
+    <script src="script.js"></script>
+  </body>
+</html>
